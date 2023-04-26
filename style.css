@@ -56,9 +56,9 @@ body {
 }
 
 #back_button{
-  margin:0px auto;
-  position:absolute;
-  left:27px;
+  position:relative;
+  left:-20px;
+  z-index:10;
 }
 
 .navegacion__logo {
@@ -191,6 +191,18 @@ main {
   text-shadow:0px 0px 5px lightgrey;
   }
 
+/*estilos login.html*/
+/* main*/
+main{
+  color:lightgreen;
+}
+
+
+
+
+
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) ) */
 @media only screen and (min-width: 768px) {
@@ -199,3 +211,4 @@ main {
   }
 
 }
+
