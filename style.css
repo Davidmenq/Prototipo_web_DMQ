@@ -46,7 +46,20 @@ body {
 .navegacion__menu {
   flex: 1 1 30vw;
   display: flex;
-  justify-content: left;
+  justify-content: start;
+  color: rgba(2,112,0, 0);
+}
+
+.navegacion__menu:hover{
+  color: lightgreen;
+  text-shadow: 2px 2px 2px #f4f014;
+}
+
+#back_button{
+  margin:0px auto;
+  position:absolute;
+  left:27px;
+  color:
 }
 
 .navegacion__logo {
