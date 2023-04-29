@@ -179,9 +179,14 @@ main {
 }
 
 .main__platos--carta--imagenes {
+  display:block;
+  position:relative;
   height: 100%;
   border: none;
+  border-radius:10px 0px 0px 10px;
+  z-index:-1;
 }
+
 
 .main__platos--carta--descripcion {
   font-size: 0.8em;
